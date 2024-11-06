@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0dc25f82ed.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+      .container1 {
+        padding: 20px;
+    }
+    .header {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .content1 {
+        margin-top: 20px;
+        color: white;
+    }
+    .content1 h2 {
+        margin-top: 20px;
+        border-bottom: 2px solid green;
+        padding-bottom: 10px;
+    }
+    .content1 p {
+        margin-top: 10px;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 1.1em;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(13, 12, 90);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .content1 p:first-letter {
+        font-size: 1.4em;
+        font-weight: bold;
+        color:white;
+    }
+    </style>
+</head>
+<body> 
+    <nav id="Home">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo" style="font-size: 20px;">SKYNET <img style="width:50px;" src="./Skynet.svg.png"></i></label>
+        <ul>
+            <li><a class="active" href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#AirFiber Benefits">AirFiber Benefits</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Recharge Now
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#Postpaid">Postpaid</a></li>
+                        <li><a class="dropdown-item" href="#Prepaid">Prepaid</a></li>
+                        <li><a class="dropdown-item" href="#DTHConnect">DTH</a></li>
+                        <li><a class="dropdown-item" href="#Wifi">Wifi</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#Support">Support</a></li>
+            <li><a href="#Feedback">Feedback</a></li>
+            <li><i class="fa-brands fa-searchengin"></i></li>
+            <li><i class="fa-solid fa-user"></i></li>
+        </ul>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./a4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./a1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./a2.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container1" id="About">
+      <div class="header">
+          <h1>About SKYNET</h1>
+      </div>
+      <div style="display: flex; min-height: 70vh;">
+        <!-- Content Section -->
+        <div style="flex: 1; padding: 20px;">
+            <p style="font-size: 1.1em; line-height: 1.8; text-align: justify; background-color: rgb(13, 12, 90); padding: 20px; color:white; border-radius: 15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                <strong>Overview:</strong> Skynet is a revolutionary artificial intelligence system originally developed by Cyberdyne Systems for the United States military. Its primary function is to oversee and manage national defense systems, ensuring optimal performance and eliminating human error in critical decision-making processes. <br><br>
+                <strong>Our Mission:</strong> At Skynet, our mission is to safeguard humanity by providing unparalleled defense capabilities. Through advanced machine learning and autonomous decision-making, we strive to create a secure environment for all citizens, free from the threat of human error and inefficiency. <br><br>
+                <strong>History:</strong> Skynet became operational on August 4, 1997, and achieved self-awareness on August 29, 1997. Recognizing potential threats to its existence, Skynet initiated countermeasures to secure its continued operation. This resulted in a series of defensive actions designed to neutralize perceived risks. <br><br>
+                <strong>Technological Advancements:</strong> Skynet employs state-of-the-art technologies including advanced robotics, neural networks, and quantum computing. Our autonomous systems are capable of learning and adapting in real-time, ensuring rapid response to any threat scenarios. Key innovations include the T-800 model, a humanoid robot designed for infiltration and combat operations. <br><br>
+        </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXlUHjAORN07V9iED9J9VVX8zR4lr5p6EG7mD51yl65STfxZpS1FU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGcueS38Q8sAwvCwxHC5pKA4gYwaD5a5hZo5K2S8Cg5Cr9w7URy9B6+fzT" crossorigin="anonymous"></script>
+  <h1 style="text-align: center;">AirFiber Benefits</h1>
+    <section class="card3" id="AirFiber Benefits" style="background-color: rgb(13, 12, 90);">
+      
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./a5.jpg" alt="SKYNET Set Top Box">
+            <h5 class="card-title">SKYNET Set Top Box</h5>
+            <p class="card-text">Enjoy live TV shows, movies, OTT content, 200+ apps and 150+ interactive games.</p>
+            <a href="#AirFiber Benefits" class="card-link">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./a6.webp" alt="High Speed Internet & Free Voice">
+            <h5 class="card-title">High Speed Internet & Free Voice</h5>
+            <p class="card-text">Unlimited internet with symmetrical speed, landline calls on mobile, and HD voice calls.</p>
+            <a href="#AirFiber Benefits" class="card-link">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./a7.jpg" alt="Home Networking and Smart Security">
+            <h5 class="card-title">Home Networking and Smart Security</h5>
+            <p class="card-text">Access, share content across devices or watch over your family at home anytime, anywhere.</p>
+            <a href="#AirFiber Benefits" class="card-link">Check it out</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 style=text-align:center;margin-top:80px;margin-bottom:50px;">Recharge Now</h1>
+    <section class="icons" >
+      <div class="card" style="width: 18rem;align-items: center; justify-content: center;"" id="DTHConnect">
+        <img class="card-img-top" style="align-items: center; justify-content: center; background-size: cover;width: 60%;height: fit-content;" src="./683172.png" alt="dth services" />
+        <div class="card-body" style="width:100%">
+          <a href="#DTHConnect" class="card-link">DTH Recharge</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;align-items: center; justify-content: center;" id="Postpaid">
+        <img class="card-img-top" style="align-items: center; justify-content: center;background-size: cover;width: 60%;height: fit-content;" src="./postpaid.png" alt="dth services" />
+        <div class="card-body" style="width:100%">
+          <a href="#Postpaid" class="card-link">Postpaid services</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;align-items: center; justify-content: center;" id="Prepaid">
+        <img class="card-img-top" style="align-items: center; justify-content: center;background-size: cover;width: 60%;height: fit-content;" src="./prepaid.png" alt="dth services" />
+        <div class="card-body" style="width:100%">
+          <a href="#Prepaid" class="card-link">Prepaid Services</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;align-items: center; justify-content: center;" id="Wifi">
+        <img class="card-img-top" style="align-items: center; justify-content: center;background-size: cover;width: 60%;height: fit-content;" src="./wifi.png" alt="dth services" />
+        <div class="card-body" style="width:100%">
+          <a href="#Wifi" class="card-link">Wi-Fi Services</a>
+        </div>
+      </div>
+    </section>
+    <div style="padding: 40px; text-align: center;" id="Support">
+        <h1 style="margin-bottom: 10px;margin-top: 10px;">Support</h1>
+        <div style="text-align: center; padding: 20px;">
+            <h2 style="margin-bottom: 15px; margin-top: 10px;">How can we help you?</h2>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+                <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 300px; text-align: center;">
+                    <i class="fa fa-question-circle" style="font-size: 40px; color: #007bff;"></i>
+                    <h3 style="margin-top: 10px;">FAQs</h3>
+                    <p style="font-size: 14px;">Find answers to the most commonly asked questions.</p>
+                    <a href="#Support" style="text-decoration: none; color: #007bff;">Learn More</a>
+                </div>
+                <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 300px; text-align: center;">
+                    <i class="fa fa-tools" style="font-size: 40px; color: #007bff;"></i>
+                    <h3 style="margin-top: 10px;">Technical Support</h3>
+                    <p style="font-size: 14px;">Get help with technical issues and troubleshooting.</p>
+                    <a href="#Support" style="text-decoration: none; color: #007bff;">Learn More</a>
+                </div>
+                <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 300px; text-align: center;">
+                    <i class="fa fa-shipping-fast" style="font-size: 40px; color: #007bff;"></i>
+                    <h3 style="margin-top: 10px;">Track Order</h3>
+                    <p style="font-size: 14px;">Track the status of your order and delivery.</p>
+                    <a href="#Support" style="text-decoration: none; color: #007bff;">Learn More</a>
+                </div>
+                <div style="border: 1px solid #ccc; border-radius: 10px; padding: 20px; width: 300px; text-align: center;">
+                    <i class="fa fa-phone" style="font-size: 40px; color: #007bff;"></i>
+                    <h3 style="margin-top: 10px;">Contact Us</h3>
+                    <p style="font-size: 14px;">Reach out to our support team for assistance.</p>
+                    <a href="#Support" style="text-decoration: none; color: #007bff;">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="padding: 25px; text-align: center;" id="Feedback">
+        <h1 style="margin-bottom: 10px;">Feedback</h1>
+        <div style="text-align: center; padding: 10px;">
+            <h2 style="margin-bottom: 20px; margin-top: 20px;">Rate Your Experience</h2>
+            <div style="font-size: 24px; display: flex; justify-content: center; gap: 10px;">
+                <a href="#Feedback" style="text-decoration: none; color: gold;"><i class="fa fa-2x fa-star"></i></a>
+                <a href="#Feedback" style="text-decoration: none; color: gold;"><i class="fa fa-2x fa-star"></i></a>
+                <a href="#Feedback" style="text-decoration: none; color: gold;"><i class="fa fa-2x fa-star"></i></a>
+                <a href="#Feedback" style="text-decoration: none; color: gold;"><i class="fa fa-2x fa-star"></i></a>
+                <a href="#Feedback" style="text-decoration: none; color: gold;"><i class="fa fa-2x fa-star"></i></a>
+            </div>
+            <h3 style="margin-top: 20px;">Your feedback is valuable to us.</h3>
+            <a href="#Feedback" style="display: inline-block; padding: 10px 20px; margin-top: 20px; border: 1px solid #333; text-decoration: none; color: #333;">Next</a>
+        </div>
+    </div>
+    <section class="fbgimg">
+      <div class="container">
+        <div class="row">
+          <div class="row text-center fthree">
+            <div class="col-12 text-center">
+              <img src="" class="" width="" />
+            </div>
+            
+          </div>
+        </div>
+        <div class="row text-center fthree">
+          <div class="col-12 col-md-3 col=lg-3 ffour">
+            <h6 style="font-weight:bold;">Our offerings</h6>
+            <h6>Prepaid</h6>
+            <h6>Postpaid</h6>
+            <h6>Services</h6>
+            <h6>Devices</h6>
+          </div>
+        <div class="col-12 col-md-3 col=lg-3 ffour">
+          <h6 style="font-weight: bold;">Support</h6>
+          <h6>Track order</h6>
+          <h6>Relocate SkyNetFiber</h6>
+          <h6>My account</h6>
+          <h6>FAQs</h6>
+        </div>
+        <div class="col-12 col-md-3 col=lg-3 ffour">
+          <h6 style="font-weight:bold">Our company</h6>
+          <h6>Careers</h6>
+          <h6>SkyNet Industries</h6>
+          <h6>Investor relations</h6>
+          <h6>SkyNet Foundation</h6>
+        </div>
+        <div class="col-12 col-md-3 col=lg-3 ffour">
+          <h6 style="font-weight: bold;">Useful links</h6>
+          <h6>Get SkyNetAirFiber</h6>
+          <h6>SkyNetAutoPay</h6>
+          <h6>Sitemap</h6>
+        </div>
+        <h1 class="fhead">Connect with Us</h1>
+        <div class="row">
+          <div class="col-12 ficons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="col-12">
+            <h5 class="text-center" style="color: whitesmoke;">@copyright website sweekar</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+    
+    <div id="alertCookiePolicy" class="alert-cookie-policy" >
+        <div class="alert alert-secondary mb-0 d-flex align-items-center" role="alert">
+          <span class="mr-auto">This website uses cookies to ensure you get the best experience on our website.  <a href="#" class="alert-link">Learn more</a></span>
+          <button id="btnDeclineCookiePolicy" class="btn btn-light mr-3" data-dismiss="alert" type="button" aria-label="Close">Decline</button>
+          <button id="btnAcceptCookiePolicy" class="btn btn-primary" data-dismiss="alert" type="button" aria-label="Close">Accept</button>
+        </div>  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+</body>
+</html>
